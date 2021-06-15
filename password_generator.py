@@ -66,15 +66,11 @@ class Password:
 
 
     # Returns a random symbol
-    def returnSymbol(self, value):
-        signs=''
-        keys=self.symbols.keys()
-        for key in keys:
-            signs += self.symbols.get(key)+" "
+    # def returnSymbol(self, value):
+    #     signs=''
+    #     keys=self.symbols.keys()
+    #     for key in keys:
+    #         signs += self.symbols.get(key)+" "
 
-        a = signs.split(" ")
-
-
-p = Password()
-print(p.alpha_numeric(2,5))
+    #     a = signs.split(" ")
 
